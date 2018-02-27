@@ -23,10 +23,9 @@ body{
 }
 
 .header{
-  width: 80%;
+  width: 100%;
   height: 10%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-top:25%;
   display: flex;
   flex-direction: row;
   position: absolute;
@@ -54,7 +53,7 @@ h1{
 .content{
   width: 100%;
   height: auto;
-  margin-top: 20%;
+  margin-top: 35%;
 }
 
 .txt_prs{
@@ -67,4 +66,30 @@ h1{
 
 .txt_ct{
   display: none;
+}
+
+#carousel{
+  position:relative;
+  height:100%;
+  width:80%;
+  margin-left:40%;
+  margin-right:20%;
+  display: flex;
+  flex-direction: column;
+}
+#carousel ul li{
+  list-style-type: none;
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+.next{
+  right: 0;
+  font-family: sans-serif;
+}
+
+.prev{
+  left:0;
+  font-family: sans-serif;
 }
